@@ -14,6 +14,7 @@ The system is implemented using Laravel Framework.
 - Run `npm install && npm run build` to get the frontend dependencies installed
 - Run `cp .env.example .env` to create a new .env file from .env.example
 - Run `php artisan key:generate` to generate a new key
+- Run `touch database/database.sqlite` to create sqlite db, or update the .env file with the database credentials
 - Run `php artisan migrate:fresh --seed` to create the database and seed it with some data we will use sqlite for now, in seed it will create 3 users you can change the database configuration in the .env file
 - Run `composer run dev` to start server
 
